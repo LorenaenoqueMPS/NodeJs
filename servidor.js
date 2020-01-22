@@ -6,4 +6,4 @@ app.get("/status", function(req, res) {
     res.json({mensagem: "funcionando"});
 });
 
-http.createServer(app).listen(3000);
+app.listen(3000);
